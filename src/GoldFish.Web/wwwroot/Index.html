@@ -1,14 +1,27 @@
 ﻿<!DOCTYPE html>
-<html data-ng-app="montana">
+<html data-ng-app="app">
 <head>
     <link href="lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="container"></div>
+    <div data-ng-include="'app/shell/shell.html'"></div>
     <script type="text/javascript" src="lib/angular/angular.min.js"></script>
     <script type="text/javascript" src="lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="lib/angular-ui-router.stateHelper/statehelper.min.js"></script>
+
     <script type="text/javascript" src="app/core/core.module.js"></script>
-    <script type="text/javascript" src="app/app.js"></script>
-    
+
+    <script type="text/javascript" src="app/shell/shell.module.js"></script>
+    <script type="text/javascript" src="app/shell/shell.js"></script>
+
+    <script type="text/javascript" src="app/home/home.module.js"></script>
+    <script type="text/javascript" src="app/home/home.js"></script>
+    <script type="text/javascript" src="app/home/home.route.js"></script>
+
+    <script type="text/javascript" src="app/account/account.module.js"></script>
+    <script type="text/javascript" src="app/account/account.js"></script>
+    <script type="text/javascript" src="app/account/account.route.js"></script>
+
+    <script type="text/javascript" src="app/app.module.js"></script>
 </body>
 </html>
