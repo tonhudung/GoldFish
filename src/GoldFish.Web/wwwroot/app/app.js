@@ -1,1 +1,6 @@
-﻿// Write your Javascript code.
+﻿(function () {
+    'use strict';
+    angular.module('app', [
+        'app.core'
+    ]);
+})();
