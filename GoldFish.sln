@@ -12,6 +12,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GoldFish.Web", "src\GoldFish.Web\GoldFish.Web.xproj", "{6A6B7C52-4F45-4FC0-9E76-3D71461860C5}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GoldFish.WebApi", "src\GoldFish.WebApi\GoldFish.WebApi.xproj", "{3FC95061-7F52-4EBF-A61B-CEAD56F20299}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GoldFish.Repository", "src\GoldFish.Repository\GoldFish.Repository.xproj", "{70CD77FC-A5B0-4DC8-9381-F4466D3D98B1}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GoldFish.Domain", "src\GoldFish.Domain\GoldFish.Domain.xproj", "{E7287590-803B-456F-AB05-3F4D42BFB624}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GoldFish.Domain.Services", "src\GoldFish.Domain.Services\GoldFish.Domain.Services.xproj", "{AD85AB32-DD30-46BF-9E1E-BBD4C4DB935E}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GoldFish.Domain.Services.Interface", "src\GoldFish.Domain.Services.Interface\GoldFish.Domain.Services.Interface.xproj", "{2DBD6CF3-EE1A-47CA-B1C8-CFEEF96B1417}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +32,36 @@ Global
 		{6A6B7C52-4F45-4FC0-9E76-3D71461860C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A6B7C52-4F45-4FC0-9E76-3D71461860C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A6B7C52-4F45-4FC0-9E76-3D71461860C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FC95061-7F52-4EBF-A61B-CEAD56F20299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC95061-7F52-4EBF-A61B-CEAD56F20299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC95061-7F52-4EBF-A61B-CEAD56F20299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC95061-7F52-4EBF-A61B-CEAD56F20299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70CD77FC-A5B0-4DC8-9381-F4466D3D98B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70CD77FC-A5B0-4DC8-9381-F4466D3D98B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70CD77FC-A5B0-4DC8-9381-F4466D3D98B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70CD77FC-A5B0-4DC8-9381-F4466D3D98B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7287590-803B-456F-AB05-3F4D42BFB624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7287590-803B-456F-AB05-3F4D42BFB624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7287590-803B-456F-AB05-3F4D42BFB624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7287590-803B-456F-AB05-3F4D42BFB624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD85AB32-DD30-46BF-9E1E-BBD4C4DB935E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD85AB32-DD30-46BF-9E1E-BBD4C4DB935E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD85AB32-DD30-46BF-9E1E-BBD4C4DB935E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD85AB32-DD30-46BF-9E1E-BBD4C4DB935E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DBD6CF3-EE1A-47CA-B1C8-CFEEF96B1417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DBD6CF3-EE1A-47CA-B1C8-CFEEF96B1417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DBD6CF3-EE1A-47CA-B1C8-CFEEF96B1417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DBD6CF3-EE1A-47CA-B1C8-CFEEF96B1417}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6A6B7C52-4F45-4FC0-9E76-3D71461860C5} = {F1494A1D-B300-4313-A247-BD7D49C8A309}
+		{3FC95061-7F52-4EBF-A61B-CEAD56F20299} = {F1494A1D-B300-4313-A247-BD7D49C8A309}
+		{70CD77FC-A5B0-4DC8-9381-F4466D3D98B1} = {F1494A1D-B300-4313-A247-BD7D49C8A309}
+		{E7287590-803B-456F-AB05-3F4D42BFB624} = {F1494A1D-B300-4313-A247-BD7D49C8A309}
+		{AD85AB32-DD30-46BF-9E1E-BBD4C4DB935E} = {F1494A1D-B300-4313-A247-BD7D49C8A309}
+		{2DBD6CF3-EE1A-47CA-B1C8-CFEEF96B1417} = {F1494A1D-B300-4313-A247-BD7D49C8A309}
 	EndGlobalSection
 EndGlobal

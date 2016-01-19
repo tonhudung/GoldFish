@@ -1,0 +1,15 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "GoldFish.Domain.Services Class Library",
+  "authors": [ "alex_to" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "Microsoft.CSharp": "4.0.1-beta-23516"
+  },
+  "frameworks": {
+    "dnxcore50": { }
+  }
+}
