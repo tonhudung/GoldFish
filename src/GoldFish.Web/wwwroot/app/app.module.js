@@ -6,4 +6,5 @@
         'app.home',
         'app.account'
     ]);
+
 })();

@@ -8,6 +8,13 @@
     configureRoute.$inject = ['stateHelperProvider'];
 
     function configureRoute(stateHelperProvider) {
-        
+        stateHelperProvider.state({
+            name: 'account',
+            children:[
+            {
+                name: 'register',
+                templateUrl: 'app/account/account.register.html'
+            }]
+        });
     }
 })();

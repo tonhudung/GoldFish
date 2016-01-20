@@ -1,8 +1,9 @@
 ﻿<div data-ng-controller="Shell as vm">
     <header>
+        <div data-ng-include="'app/shell/topnav.html'"></div>
     </header>
     <section id="content">
-        <div></div>
+        <div data-ui-view="left-side-bar">Left Side Bar</div>
         <div data-ui-view></div>
     </section>
 </div>
