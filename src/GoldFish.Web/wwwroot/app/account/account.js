@@ -2,9 +2,10 @@
     'use strict';
     angular
         .module('app.account')
-        .controller('Account', account);
+        .controller('accountCtrl', accountCtrl);
 
-    function account() {
+    function accountCtrl() {
         
     }
+
 })();

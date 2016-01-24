@@ -1,28 +1,47 @@
 ﻿<!DOCTYPE html>
-<html data-ng-app="app">
+<html data-ng-app="app" lang="en">
 <head>
-    <link href="lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="lib/html5shiv/dist/html5shiv.min.js"></script>
+      <script src="lib/respond/dest/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 <body>
-<div data-ng-include="'app/shell/shell.html'"></div>
+    <div data-ng-include="'app/shell/shell.html'"></div>
 
-    <script type="text/javascript" src="lib/angular/angular.min.js"></script>
-    <script type="text/javascript" src="lib/angular-ui-router/release/angular-ui-router.min.js"></script>
-    <script type="text/javascript" src="lib/angular-ui-router.stateHelper/statehelper.min.js"></script>
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/angular-resource/angular-resource.min.js"></script>
+    <script src="lib/angular-cookies/angular-cookies.min.js"></script>
+    <script src="lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="lib/angular-ui-router.stateHelper/statehelper.min.js"></script>
 
-    <script type="text/javascript" src="app/core/core.module.js"></script>
+    <script src="app/core/core.module.js"></script>
 
-    <script type="text/javascript" src="app/shell/shell.module.js"></script>
-    <script type="text/javascript" src="app/shell/shell.js"></script>
+    <script src="app/services/services.module.js"></script>
+    <script src="app/services/authentication.js"></script>
 
-    <script type="text/javascript" src="app/home/home.module.js"></script>
-    <script type="text/javascript" src="app/home/home.js"></script>
-    <script type="text/javascript" src="app/home/home.route.js"></script>
+    <script src="app/shell/shell.module.js"></script>
+    <script src="app/shell/shell.js"></script>
+    <script src="app/shell/shell.route.js"></script>
 
-    <script type="text/javascript" src="app/account/account.module.js"></script>
-    <script type="text/javascript" src="app/account/account.js"></script>
-    <script type="text/javascript" src="app/account/account.route.js"></script>
+    <script src="app/home/home.module.js"></script>
+    <script src="app/home/home.js"></script>
+    <script src="app/home/home.route.js"></script>
 
-    <script type="text/javascript" src="app/app.module.js"></script>
+    <script src="app/account/account.module.js"></script>
+    <script src="app/account/account.js"></script>
+    <script src="app/account/account.route.js"></script>
+
+    <script src="app/app.module.js"></script>
 </body>
 </html>

@@ -11,7 +11,7 @@
         $urlRouterProvider.otherwise('/');
 
         stateHelperProvider.state({
-            name: 'home',
+            name: 'root.home',
             url: '/',
             templateUrl: 'app/home/home.html'
         });

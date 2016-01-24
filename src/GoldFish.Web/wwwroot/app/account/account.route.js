@@ -1,4 +1,4 @@
-﻿(function() {
+﻿(function () {
     'use strict';
 
     angular
@@ -9,11 +9,19 @@
 
     function configureRoute(stateHelperProvider) {
         stateHelperProvider.state({
-            name: 'account',
-            children:[
+            name: 'root.account',
+            url: '/account',
+            templateUrl: '/app/account/account.html',
+            children: [
             {
-                name: 'register',
-                templateUrl: 'app/account/account.register.html'
+                name: 'signup',
+                url: '/signup',
+                templateUrl: 'app/account/account.signup.html'
+            },
+            {
+                name: 'signin',
+                url: '/signin',
+                templateUrl: 'app/account/account.signin.html'
             }]
         });
     }
